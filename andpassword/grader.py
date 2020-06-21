@@ -16,7 +16,7 @@ class Grader(InteractiveGrader):
 		ans = list(map(int, case.input_data().decode("utf-8").split(' ')))
 		n = len(ans)
 		interactor.writeln(n)
-		limit = 5121
+		limit = 5120
 		guesses = 0
 		while True:
 			op = interactor.readtoken(delim=None).decode("utf-8")
